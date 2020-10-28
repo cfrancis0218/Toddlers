@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		531412F224F7324600173EC3 /* SellToys.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531412F124F7324600173EC3 /* SellToys.storyboard */; };
+		531412F424F7325600173EC3 /* SellToysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531412F324F7325600173EC3 /* SellToysViewController.swift */; };
+		531412F624F7329700173EC3 /* PlayDate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531412F524F7329700173EC3 /* PlayDate.storyboard */; };
+		531412F824F732A200173EC3 /* PlayDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531412F724F732A200173EC3 /* PlayDateViewController.swift */; };
+		531412FA24F732B000173EC3 /* ChangeTime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531412F924F732B000173EC3 /* ChangeTime.storyboard */; };
+		531412FC24F732BC00173EC3 /* ChangeTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531412FB24F732BC00173EC3 /* ChangeTimeViewController.swift */; };
 		5322D2D724F4BD3500700316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5322D2D624F4BD3500700316 /* AppDelegate.swift */; };
 		5322D2D924F4BD3500700316 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5322D2D824F4BD3500700316 /* SceneDelegate.swift */; };
 		5322D2DB24F4BD3500700316 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5322D2DA24F4BD3500700316 /* ViewController.swift */; };
 		5322D2DE24F4BD3500700316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5322D2DC24F4BD3500700316 /* Main.storyboard */; };
 		5322D2E024F4BD3700700316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5322D2DF24F4BD3700700316 /* Assets.xcassets */; };
 		5322D2E324F4BD3700700316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5322D2E124F4BD3700700316 /* LaunchScreen.storyboard */; };
+		536AE70124F5E2D400ED558B /* SelectionView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 536AE70024F5E2D400ED558B /* SelectionView.storyboard */; };
+		536AE70324F5E2E100ED558B /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536AE70224F5E2E100ED558B /* SelectionViewController.swift */; };
+		538926AC24F5E02900FFC71B /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538926AB24F5E02900FFC71B /* ScheduleViewController.swift */; };
+		538926AE24F5E05300FFC71B /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538926AD24F5E05300FFC71B /* ContactViewController.swift */; };
+		538926B324F5E08B00FFC71B /* ScheduleView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538926B224F5E08B00FFC71B /* ScheduleView.storyboard */; };
+		538926B524F5E09600FFC71B /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538926B424F5E09600FFC71B /* Contact.storyboard */; };
+		538D4A0E24F99AF50076CD49 /* PriceSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538D4A0D24F99AF50076CD49 /* PriceSelection.storyboard */; };
+		538D4A1024F99B030076CD49 /* PriceSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538D4A0F24F99B030076CD49 /* PriceSelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		531412F124F7324600173EC3 /* SellToys.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SellToys.storyboard; sourceTree = "<group>"; };
+		531412F324F7325600173EC3 /* SellToysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellToysViewController.swift; sourceTree = "<group>"; };
+		531412F524F7329700173EC3 /* PlayDate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlayDate.storyboard; sourceTree = "<group>"; };
+		531412F724F732A200173EC3 /* PlayDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayDateViewController.swift; sourceTree = "<group>"; };
+		531412F924F732B000173EC3 /* ChangeTime.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChangeTime.storyboard; sourceTree = "<group>"; };
+		531412FB24F732BC00173EC3 /* ChangeTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeTimeViewController.swift; sourceTree = "<group>"; };
 		5322D2D324F4BD3500700316 /* Toddlers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toddlers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5322D2D624F4BD3500700316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5322D2D824F4BD3500700316 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +44,14 @@
 		5322D2DF24F4BD3700700316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5322D2E224F4BD3700700316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5322D2E424F4BD3700700316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		536AE70024F5E2D400ED558B /* SelectionView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectionView.storyboard; sourceTree = "<group>"; };
+		536AE70224F5E2E100ED558B /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		538926AB24F5E02900FFC71B /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		538926AD24F5E05300FFC71B /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		538926B224F5E08B00FFC71B /* ScheduleView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScheduleView.storyboard; sourceTree = "<group>"; };
+		538926B424F5E09600FFC71B /* Contact.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Contact.storyboard; sourceTree = "<group>"; };
+		538D4A0D24F99AF50076CD49 /* PriceSelection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PriceSelection.storyboard; sourceTree = "<group>"; };
+		538D4A0F24F99B030076CD49 /* PriceSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceSelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,53 @@
 		5322D2D524F4BD3500700316 /* Toddlers */ = {
 			isa = PBXGroup;
 			children = (
+				53B3047824FAF61D00627BED /* Cells */,
 				5322D2D624F4BD3500700316 /* AppDelegate.swift */,
 				5322D2D824F4BD3500700316 /* SceneDelegate.swift */,
-				5322D2DA24F4BD3500700316 /* ViewController.swift */,
-				5322D2DC24F4BD3500700316 /* Main.storyboard */,
+				538926AF24F5E05F00FFC71B /* Storyboards */,
+				538926AA24F5DFFD00FFC71B /* View Controllers */,
 				5322D2DF24F4BD3700700316 /* Assets.xcassets */,
 				5322D2E124F4BD3700700316 /* LaunchScreen.storyboard */,
 				5322D2E424F4BD3700700316 /* Info.plist */,
 			);
 			path = Toddlers;
+			sourceTree = "<group>";
+		};
+		538926AA24F5DFFD00FFC71B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5322D2DA24F4BD3500700316 /* ViewController.swift */,
+				536AE70224F5E2E100ED558B /* SelectionViewController.swift */,
+				538926AB24F5E02900FFC71B /* ScheduleViewController.swift */,
+				531412F724F732A200173EC3 /* PlayDateViewController.swift */,
+				531412F324F7325600173EC3 /* SellToysViewController.swift */,
+				538926AD24F5E05300FFC71B /* ContactViewController.swift */,
+				531412FB24F732BC00173EC3 /* ChangeTimeViewController.swift */,
+				538D4A0F24F99B030076CD49 /* PriceSelectionViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		538926AF24F5E05F00FFC71B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5322D2DC24F4BD3500700316 /* Main.storyboard */,
+				536AE70024F5E2D400ED558B /* SelectionView.storyboard */,
+				538926B224F5E08B00FFC71B /* ScheduleView.storyboard */,
+				538926B424F5E09600FFC71B /* Contact.storyboard */,
+				531412F124F7324600173EC3 /* SellToys.storyboard */,
+				531412F524F7329700173EC3 /* PlayDate.storyboard */,
+				531412F924F732B000173EC3 /* ChangeTime.storyboard */,
+				538D4A0D24F99AF50076CD49 /* PriceSelection.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		53B3047824FAF61D00627BED /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +191,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				538D4A0E24F99AF50076CD49 /* PriceSelection.storyboard in Resources */,
 				5322D2E324F4BD3700700316 /* LaunchScreen.storyboard in Resources */,
+				531412F224F7324600173EC3 /* SellToys.storyboard in Resources */,
+				538926B524F5E09600FFC71B /* Contact.storyboard in Resources */,
+				531412FA24F732B000173EC3 /* ChangeTime.storyboard in Resources */,
 				5322D2E024F4BD3700700316 /* Assets.xcassets in Resources */,
+				536AE70124F5E2D400ED558B /* SelectionView.storyboard in Resources */,
 				5322D2DE24F4BD3500700316 /* Main.storyboard in Resources */,
+				531412F624F7329700173EC3 /* PlayDate.storyboard in Resources */,
+				538926B324F5E08B00FFC71B /* ScheduleView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +211,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				538926AC24F5E02900FFC71B /* ScheduleViewController.swift in Sources */,
 				5322D2DB24F4BD3500700316 /* ViewController.swift in Sources */,
+				531412FC24F732BC00173EC3 /* ChangeTimeViewController.swift in Sources */,
 				5322D2D724F4BD3500700316 /* AppDelegate.swift in Sources */,
+				538D4A1024F99B030076CD49 /* PriceSelectionViewController.swift in Sources */,
 				5322D2D924F4BD3500700316 /* SceneDelegate.swift in Sources */,
+				531412F424F7325600173EC3 /* SellToysViewController.swift in Sources */,
+				538926AE24F5E05300FFC71B /* ContactViewController.swift in Sources */,
+				536AE70324F5E2E100ED558B /* SelectionViewController.swift in Sources */,
+				531412F824F732A200173EC3 /* PlayDateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

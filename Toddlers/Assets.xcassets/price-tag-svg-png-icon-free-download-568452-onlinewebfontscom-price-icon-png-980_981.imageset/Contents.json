@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "price-tag-svg-png-icon-free-download-568452-onlinewebfontscom-price-icon-png-980_981.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
